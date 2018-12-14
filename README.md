@@ -15,4 +15,4 @@ where
   value = frequency of the trend
 The trends with a frequency of less than 10 are removed so that the more used trends could be visualized easily. 
 Plotting the frequency against the trends gives the following result.
-  ![](Top_tweets.JPG)
+  ![](Top_tweets.jpg)
