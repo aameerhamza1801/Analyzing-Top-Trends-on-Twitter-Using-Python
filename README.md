@@ -15,15 +15,15 @@ dataframes for analysis.
 Since, the unique trends in all the locations are to be analyzed so the trends are first converted into `{key:value}` format 
 where
 
-  key   = trend name
-  value = frequency of the trend
+    key   = trend name
+    value = frequency of the trend
   
 The trends with a frequency of less than 10 are removed so that the more used trends could be visualized easily. 
 Plotting the frequency against the trends gives the following result.
   ![](Top_tweets.jpg)
 
 As can be seen in the image, at the time when the code was written the most trending topic on the most locations 
-was `#ThankYosBTS`. 
+was `#ThankYouBTS`. 
 
 **Note:** Some Korean or Japanese tweets cant be seen in figure as the `matplotlib` is unable to display the text. However 
 they can be seen in dataframe.
