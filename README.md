@@ -18,7 +18,7 @@ For this purpose I have dedicated a different cell where you just have to change
 want and it will search for the woeid of that city and then call the twitter trend api for that city (if woeid is present) to
 return the number of trends specified along with the time of creation.
 
-![](images/city_search.jpg)
+![](images/city_search.JPG)
 
 # Analysing the data
 
@@ -30,7 +30,7 @@ where
   
 The trends with a frequency of less than 10 are removed so that the more used trends could be visualized easily. 
 Plotting the frequency against the trends gives the following result.
-  ![](images/Top_tweets.jpg)
+  ![](images/Top_tweets.JPG)
 
 As can be seen in the image, at the time when the code was written the most trending topic on the most locations 
 was `#ThankYouBTS`. 
