@@ -16,7 +16,8 @@ Since my main task is to analyze the top trends around the world so if any wants
 they cant get the data from the dataframe as getting data for all 404 locations would take time because of call rate limit.
 For this purpose I have dedicated a different cell where you just have to change the city name and number of trends you 
 want and it will search for the woeid of that city and then call the twitter trend api for that city (if woeid is present) to
-return the number of trends specified along with the time of creation.
+return the number of trends specified along with the time of creation. Following were the results when I searched for `Berlin`
+with number of tweets `5`:
 
 ![](images/city_search.JPG)
 
